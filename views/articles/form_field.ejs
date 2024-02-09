@@ -1,0 +1,62 @@
+<!-- <div class="form-group">
+    <label for="title">Title</label>
+    <input required value="<%=article.title%>" type="text" name="title" class="form-control">
+</div>
+<div class="form-group">
+    <label for="description">Description</label>
+    <textarea name="description" id="description" class="form-control"><%=article.description%></textarea>
+</div>
+<div class="form-group">
+    <label for="markdown">Content</label>
+    <textarea required name="markdown" id="markdown" class="form-control"><%=article.markdown%></textarea>
+</div>
+<br>
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">Save</button> -->
+
+<style>
+    .card-body {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.card1 h1 {
+    color: green;
+}
+</style>
+
+
+
+<section class="vh-100 bg-image">
+    <div class="mask  h-100 ">
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-5">
+                                <div class="form-outline mb-4">
+                                    <input required value="<%=article.title%>" type="text" name="title" class="form-control form-control-lg"
+                                        placeholder="Title" />
+                                </div>
+                                <div class="form-outline mb-4">
+                                    <textarea name="description" id="description" class="form-control" placeholder="Description"><%=article.description%></textarea>
+
+                                </div>
+                                <div class="form-outline mb-4">
+                                    <textarea required name="markdown" id="markdown" class="form-control" placeholder="Content"><%=article.markdown%></textarea>
+
+                                </div>
+
+                                
+                                <a href="/" class="btn btn-secondary">Cancel</a>
+                                <button type="submit" class="btn btn-primary">Save</button>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
